@@ -1,0 +1,132 @@
+html{
+    background-color: black;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+.top-bar{
+    height: 20px;
+    /* position: fixed; */
+    display: flex;
+    background-color: red;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+}
+
+.top-bar a{
+color: white;
+font-size: 12px;
+font-weight: bolder;
+}
+
+.top-bar a:hover{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navbar img{
+    height: 30px;
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  
+.ml11 {
+    font-weight: 700;
+    font-size: 3.5em;
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .floating-text{
+      display: flex;
+      justify-content: center;
+      font-family: 'Dongle', sans-serif;
+  }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 25vw);
+    /* grid-template-rows: repeat(, 5vw); */
+    /* grid-gap: 15px; */
+}
+/* 
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+} */
+
+.text-muted a{
+    text-decoration: none;
+    color: white;
+}
+
+.text-muted a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
